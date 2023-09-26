@@ -11,22 +11,22 @@ npm install map-tiles-generator
 
 ## Usage
 ```javascript
-const generator = require('map-tiles-generator');
+const TilesCounter = require('map-tiles-generator');
 
 const polygon = {type:"Feature",properties:{},geometry:{type:"Polygon",coordinates:[...]}}
 
-const test1 = new generator(polygon);
+const generator = new TilesCounter(polygon);
 ```
 
 ### Getting Tiles for a Zoom Levels
 returned data like below method -> [{x:12312,y:34343,z:15},....]
 ```javascript
-var tiles = test1.getTilesAtZoom(15); // for 15th zoom level
+var tiles = generator.getTilesAtZoom(15); // for 15th zoom level
 ```
 
 
 ### Getting Total Tile Count and Tiles for a Zoom Levels Range
 returned data like below method -> {count:232352,zoom:{0:[...],1:[...],...,18:[...]}
 ```javascript
-var tiles = test1.getTilesFromZoomRange(0,18); // for 0 to 18th levels
+var tiles = generator.getTilesFromZoomRange(0,18); // for 0 to 18th levels
 ```
