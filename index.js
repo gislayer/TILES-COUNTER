@@ -137,4 +137,4 @@ class TilesCounter {
   }
 }
 
-module.export = TilesCounter;
+module.exports = TilesCounter;
