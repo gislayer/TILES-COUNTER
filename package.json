@@ -1,6 +1,6 @@
 {
   "name": "map-tiles-generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "It's generating XYZ map tiles in a polygon.",
   "main": "index.js",
   "scripts": {
