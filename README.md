@@ -19,14 +19,16 @@ const generator = new TilesCounter(polygon);
 ```
 
 ### Getting Tiles for a Zoom Levels
-returned data like below method -> [{x:12312,y:34343,z:15},....]
+
 ```javascript
 var tiles = generator.getTilesAtZoom(15); // for 15th zoom level
+//returned data like below method -> [{x:12312,y:34343,z:15},....]
 ```
 
 
 ### Getting Total Tile Count and Tiles for a Zoom Levels Range
-returned data like below method -> {count:232352,zoom:{0:[...],1:[...],...,18:[...]}
+
 ```javascript
 var tiles = generator.getTilesFromZoomRange(0,18); // for 0 to 18th levels
+//returned data like below method -> {count:232352,zoom:{0:[...],1:[...],...,18:[...]}
 ```
