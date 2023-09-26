@@ -1,15 +1,15 @@
 {
-  "name": "tiles-counter",
-  "version": "1.0.0",
-  "description": "It's calculating raster map tiles in a polygon.",
+  "name": "map-tiles-generator",
+  "version": "1.0.1",
+  "description": "It's generating XYZ map tiles in a polygon.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "tile","map","generator","calculator","gis"
+    "tile","map","generator","calculator","gis", "XYZ Tiles"
   ],
-  "author": "",
+  "author": "Ali Kilic",
   "license": "ISC",
   "dependencies": {
     "@turf/bbox": "^6.5.0",
