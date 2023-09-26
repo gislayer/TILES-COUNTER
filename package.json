@@ -1,0 +1,23 @@
+{
+  "name": "tiles-counter",
+  "version": "1.0.0",
+  "description": "It's calculating raster map tiles in a polygon.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tile","map","generator","calculator","gis"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@turf/bbox": "^6.5.0",
+    "@turf/boolean-intersects": "^6.5.0",
+    "@turf/boolean-point-in-polygon": "^6.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gislayer/map-tiles-generator.git"
+  }
+}
